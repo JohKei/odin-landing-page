@@ -1,0 +1,107 @@
+
+/* Generals */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+    
+}
+button{
+    background-color: #3882f6;
+    border-radius: 6px;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: none;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px 50px;
+    
+}
+.links{
+    display: flex;
+    gap: 15px;
+    flex-grow: 0;
+}
+.link{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo{
+    font-size: 24px;
+    color: #f0faf8;
+    font-weight: 600;
+}
+
+/* content */
+.levelone{
+    display: flex;
+    padding: 50px;
+    background-color: #1f2937;
+    align-items: flex-start;
+    gap: 20px;
+}
+.heading{
+    flex: 1;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.image{
+    flex: 1;
+    
+}
+.heromain{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+.herosecond{
+    font-size: 18px;
+    color: #e5f7eb;
+    margin: 0;
+}
+
+/* contenttwo */
+.headingtwo{
+    text-align: center;
+}
+
+.imagecontainer{
+    display: flex;
+    padding: 0 100px;
+    gap: 10px;
+}
+.imageone,
+.imagetwo,
+.imagethree,
+.imagefour{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;  
+    flex: 1;
+}
+.imgdescription{
+    align-self: center;
+    text-align: center;
+}
